@@ -1,5 +1,29 @@
 # Auctionator 3.3.5 - Project Ascension Compatibility Fork
 
+## Important Installation Note
+
+Before putting this addon in your WoW `Interface\AddOns` folder, rename the downloaded folder to:
+
+```text
+Auctionator
+```
+
+This matters because the addon `.toc` file is named `Auctionator.toc`, and WoW addons are expected to live in a folder matching the addon name.
+
+Correct install path:
+
+```text
+World of Warcraft\Interface\AddOns\Auctionator\Auctionator.toc
+```
+
+Wrong install path:
+
+```text
+World of Warcraft\Interface\AddOns\Auctionator-by-Krieger\Auctionator.toc
+```
+
+If you download this repository as a ZIP from GitHub, Windows may create a folder such as `Auctionator-by-Krieger-main`. Rename that folder to `Auctionator` before launching the game.
+
 This is a WotLK 3.3.5-compatible Auctionator copy adjusted for Project Ascension / private-server auction house behavior.
 
 The main changes are:
